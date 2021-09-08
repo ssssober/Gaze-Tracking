@@ -32,7 +32,7 @@ def camParm(parm_path):
         K[4] = float(line[1])  # fy
         K[2] = float(line[2])  # cx
         K[5] = float(line[3])  # cy
-        K[8] = 0.0
+        K[8] = 1.0
         # K1,K2,P1,P2,K3
         D.append(float(line[4]))
         D.append(float(line[5]))
